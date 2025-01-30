@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/fdebad2184.js" crossorigin="anonymous"></script>
     <!-- google font Sora -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,6 +39,77 @@
       </script>
 </head>
 <body class="font-sora">
+
+    <header class="container mx-auto">
+    <!-- nav section -->
+    <nav>
+        <div class="navbar justify-between align-middle bg-base-100 px-4 py-4 lg:px-20 border border-accent lg:border-transparent">
+            
+              
+              <!-- left logo -->
+               <div class="flex">
+            
+            <img class="block lg:hidden w-12 h-12" src="images/small icon.png" alt="">
+            <img class="hidden lg:block " src="images/logo-header.png" alt="">
+
+               </div>
+
+            
+            <!-- center nav items -->
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+            <li><a>Product</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <!-- nav buttons -->
+            <div class="lg:flex lg:space-x-2">
+            <i class="hidden lg:block fa-solid fa-magnifying-glass"></i>
+            <i class="hidden lg:block fa-solid fa-cart-shopping"></i>
+            <button class="hidden lg:inline-block btn btn-outline font-sora border-accent text-black">Login</button>
+            <button class="hidden lg:inline-block btn bg-accent text-white font-sora font-normal">Register</button>
+            <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-accent">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>Shop</a></li>
+              <li><a>Contact</a></li>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+    <!-- banner section -->
+
+        <div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
     
 </body>
 </html>
