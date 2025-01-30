@@ -7,9 +7,38 @@
     <!-- daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!--  -->
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- google font Sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .font-sora{
+            font-family: "Sora", serif;
+        }
+    </style>
+    <!-- declaring colors -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'secondary-gray': '#EFEBE3',
+                'accent': '#179800',
+                'light-green-btn': '63B76D',
+                'bottle-green': '#115414',
+                'midnight-blue':'#102861',
+                'blue-button':'#2A4D97',
+                'gradient-to-b': 'linear-gradient(to bottom, #ffffff, #EFEBE3)',
+
+              }
+            }
+          }
+        }
+      </script>
 </head>
-<body>
+<body class="font-sora">
     
 </body>
 </html>
