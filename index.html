@@ -40,7 +40,7 @@
 </head>
 <body class="font-sora">
 
-    <header class="bg-gradient-to-b from-[#ffffff] to-[#efebe3] w-full">
+    <header class="bg-gradient-to-b from-[#ffffff] to-[#efebe3] w-full overflow-hidden">
     <!-- nav section -->
     <nav>
         <div class="navbar justify-between align-middle bg-base-100 px-4 py-4 lg:px-20 border border-accent lg:border-transparent">
@@ -52,7 +52,8 @@
             <img class="block lg:hidden w-12 h-12" src="images/small icon.png" alt="">
             <img class="hidden lg:block " src="images/logo-header.png" alt="">
 
-               </div>
+              </ul>
+              </div>
 
             
             <!-- center nav items -->
@@ -93,12 +94,12 @@
               </div>
             </div>
           </div>
-        </nav>
+    </nav>
 
     <!-- banner section -->
 
 
-        <div class="my-24">
+        <div class="">
             <h1 class="font-semibold text-3xl lg:text-6xl text-center">Freshness <span class="text-accent">You Can</span><br> <span class="text-accent">Count On</span>, Prices You’ll Love!</h1>
             <p class="text-xs lg:text-xl text-center py-2 lg:py-5">Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br class="hidden lg:block"> staples, we’ve got you covered every day!</p>
             <div class="flex justify-center">
@@ -108,14 +109,13 @@
     </header>
 
     <main>
-
         <!-- Services section -->
-    <div class="mx-5 lg:mx-36">
+    <div class="mx-5 lg:mx-36 py-12 lg:py-24">
         <h4 class="text-accent text-left font-semibold text-2xl lg:text-4xl">Services</h4>
     <!-- service parent  -->
-     <div class="grid grid-cols-1 lg:grid-cols-3 space-x-2 lg:space-x-5">
+     <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 py-5 lg:py-10 lg:gap-5">
          <!-- service 1 -->
-    <div class="py-5 px-5 my-8 card bg-secondary-gray items-center">
+    <div class="py-5 px-2 card bg-secondary-gray items-center">
 
         <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center">
         <img src="images/service.png" alt="Logo" class="w-12 h-12">
@@ -128,7 +128,7 @@
     </div>
 </div>
 <!-- service 2 -->
-<div class="py-5 px-5 my-8 card bg-secondary-gray items-center">
+<div class="py-5 px-2 card bg-secondary-gray items-center">
 
     <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center">
     <img src="images/delivery.png" alt="Logo" class="w-12 h-12">
@@ -140,7 +140,7 @@
 </div>
 </div>
 <!-- service 3 -->
-<div class="py-5 px-5 my-8 card bg-secondary-gray items-center">
+<div class="py-5 px-2 card bg-secondary-gray items-center">
 
     <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center">
     <img src="images/healthy.png" alt="Logo" class="w-12 h-12">
@@ -156,110 +156,110 @@
     </div>
     <!-- w-full bg-secondary-gray my-16 lg:my-36 p-20 -->
     <!-- popular products -->
-     <div class="w-full bg-secondary-gray my-16 lg:my-36 p-20">
+     <div class="w-full bg-secondary-gray p-20">
 
     <!-- Popular Products -->
-  <h2 class="text-3xl font-bold text-green-700 mb-8">Popular Products</h2>
+  <h2 class="text-3xl font-bold text-accent">Popular Products</h2>
 
-  <div class="grid grid-cols-4 gap-6">
+  <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 p-4"> 
     <!-- Left Promo Section -->
-    <div class="col-span-1 bg-gradient-to-br from-[#53DB3A] to-[#ffffff] rounded-lg px-4 pt-4">
+    <div class="col-span-2 lg:col-span-2 bg-gradient-to-br from-[#53DB3A] to-[#ffffff] rounded px-4 pt-4 relative">
       <h3 class="text-4xl font-bold text-white my-2">30% off</h3>
-      <p class="text-gray-700 my-2">Discover a world of treats, toys, and essentials handpicked for</p>
+      <p class="text-gray-700 my-2">Discover a world of treats, toys, <br>and essentials handpicked for</p>
       <button class="bg-white py-2 px-4 rounded-lg hover:bg-gray-100">Buy Now</button>
-      <img class="bottom-0 right-0" src="images/vegetable-offer.png" alt="">
+      <img src="images/vegetable-offer.png" alt="" class="absolute bottom-0 right-0">
     </div>
 
     <!-- Product Cards -->
-    <div class="col-span-3 grid grid-cols-3 gap-4">
+    <div class="col-span-3 grid grid-cols-2 lg:grid-cols-3 gap-4">
       <!-- Product Card 1 -->
-        <div class="bg-white rounded-lg p-4">
-            <img class="bg-secondary-gray rounded p-2" src="images/onion.png" alt="">
-            <div>
-                <h4 class="text-yellow-500 text-xs">★ 4.5</h4>
-                <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
-                 <p class="text-gray-600 text-xs">$39.99</p>
-            </div>
-        </div>
-      <!-- Product Card 2 -->
-        <div class="bg-white rounded-lg p-4">
-        <img class="bg-secondary-gray rounded p-2" src="images/onion.png" alt="">
+      <div class="bg-white rounded-lg p-2  flex items-center gap-3">
+        <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
         <div>
-            <h4 class="text-yellow-500 text-xs">★ 4.5</h4>
+            <h4 class="text-yellow-500 text-xs">★4.5</h4>
             <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
              <p class="text-gray-600 text-xs">$39.99</p>
         </div>
+    </div>
+      <!-- Product Card 2 -->
+      <div class="bg-white rounded-lg p-2  flex items-center gap-3">
+        <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
+        <div>
+            <h4 class="text-yellow-500 text-xs">★4.5</h4>
+            <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
+             <p class="text-gray-600 text-xs">$39.99</p>
         </div>
+    </div>
 
         <!-- Product Card 3 -->
-        <div class="bg-white rounded-lg p-4">
-            <img class="bg-secondary-gray rounded p-2" src="images/onion.png" alt="">
-            <div>
-                <h4 class="text-yellow-500 text-xs">★ 4.5</h4>
-                <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
-                 <p class="text-gray-600 text-xs">$39.99</p>
-            </div>
-        </div>
+        <div class="bg-white rounded-lg p-2  flex items-center gap-3">
+          <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
+          <div>
+              <h4 class="text-yellow-500 text-xs">★4.5</h4>
+              <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
+               <p class="text-gray-600 text-xs">$39.99</p>
+          </div>
+      </div>
 
         <!-- Product Card 4 -->
-        <div class="bg-white rounded-lg p-4">
-            <img class="bg-secondary-gray rounded p-2" src="images/onion.png" alt="">
-            <div>
-                <h4 class="text-yellow-500 text-xs">★ 4.5</h4>
-                <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
-                 <p class="text-gray-600 text-xs">$39.99</p>
-            </div>
-        </div>
+        <div class="bg-white rounded-lg p-2  flex items-center gap-3">
+          <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
+          <div>
+              <h4 class="text-yellow-500 text-xs">★4.5</h4>
+              <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
+               <p class="text-gray-600 text-xs">$39.99</p>
+          </div>
+      </div>
 
         <!-- Product Card 5 -->
-        <div class="bg-white rounded-lg p-4">
-            <img class="bg-secondary-gray rounded p-2" src="images/onion.png" alt="">
-            <div>
-                <h4 class="text-yellow-500 text-xs">★ 4.5</h4>
-                <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
-                 <p class="text-gray-600 text-xs">$39.99</p>
-            </div>
-        </div>
+        <div class="bg-white rounded-lg p-2  flex items-center gap-3">
+          <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
+          <div>
+              <h4 class="text-yellow-500 text-xs">★4.5</h4>
+              <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
+               <p class="text-gray-600 text-xs">$39.99</p>
+          </div>
+      </div>
 
         <!-- Product Card 6 -->
-        <div class="bg-white rounded-lg p-4">
-            <img class="bg-secondary-gray rounded p-2" src="images/onion.png" alt="">
-            <div>
-                <h4 class="text-yellow-500 text-xs">★ 4.5</h4>
-                <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
-                 <p class="text-gray-600 text-xs">$39.99</p>
-            </div>
-        </div>
+        <div class="bg-white rounded-lg p-2  flex items-center gap-3">
+          <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
+          <div>
+              <h4 class="text-yellow-500 text-xs">★4.5</h4>
+              <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
+               <p class="text-gray-600 text-xs">$39.99</p>
+          </div>
+      </div>
 
         <!-- Product Card 7 -->
-        <div class="bg-white rounded-lg p-4">
-            <img class="bg-secondary-gray rounded p-2" src="images/onion.png" alt="">
-            <div>
-                <h4 class="text-yellow-500 text-xs">★ 4.5</h4>
-                <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
-                 <p class="text-gray-600 text-xs">$39.99</p>
-            </div>
-        </div>
+        <div class="bg-white rounded-lg p-2  flex items-center gap-3">
+          <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
+          <div>
+              <h4 class="text-yellow-500 text-xs">★4.5</h4>
+              <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
+               <p class="text-gray-600 text-xs">$39.99</p>
+          </div>
+      </div>
 
         <!-- Product Card 8 -->
-        <div class="bg-white rounded-lg p-4">
-            <img class="bg-secondary-gray rounded p-2" src="images/onion.png" alt="">
-            <div>
-                <h4 class="text-yellow-500 text-xs">★ 4.5</h4>
-                <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
-                 <p class="text-gray-600 text-xs">$39.99</p>
-            </div>
-        </div>
+        <div class="bg-white rounded-lg p-2  flex items-center gap-3">
+          <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
+          <div>
+              <h4 class="text-yellow-500 text-xs">★4.5</h4>
+              <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
+               <p class="text-gray-600 text-xs">$39.99</p>
+          </div>
+      </div>
 
         <!-- Product Card 9 -->
         <div class="bg-white rounded-lg p-2  flex items-center gap-3">
-            <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
-            <div>
-                <h4 class="text-yellow-500 text-xs">★4.5</h4>
-                <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
-                 <p class="text-gray-600 text-xs">$39.99</p>
-            </div>
-        </div>
+          <img class="bg-secondary-gray rounded" src="images/onion.png" alt="">
+          <div>
+              <h4 class="text-yellow-500 text-xs">★4.5</h4>
+              <h4 class=" text-gray-800 text-xs font-semibold">Onion 1 KG</h4>
+               <p class="text-gray-600 text-xs">$39.99</p>
+          </div>
+      </div>
       
     </div>
   </div>
